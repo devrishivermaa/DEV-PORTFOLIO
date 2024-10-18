@@ -1,5 +1,5 @@
 import React from 'react';
-import pfp from '/public/assets/pfp.png'; 
+import pfp from '/assets/pfp.png'; 
 import SocialLinks from './SocialLinks'; 
 
 const Intro = () => {
