@@ -4,38 +4,38 @@ import PortfolioItem from './portfolioitem';
 
 const Portfolio = () => {
   return (
-    <div className='flex flex-col items-center justify-center my-12'>
+    <div className="flex flex-col items-center justify-center my-12 px-4 md:px-12">
       {/* Title at the top */}
-      <h2 className='text-center text-3xl md:text-4xs font-bold text-lime-600 mb-6'>
+      <h2 className="text-center text-4xl font-semibold text-lime-600 mb-4 md:mb-6 tracking-wide opacity-70 transition-all duration-300 ease-in-out transform hover:scale-105">
         What I Create
       </h2>
 
-      {/* Portfolio Items */}
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-        {portfolio.map((project) => (
+      {/* Portfolio Items (including the 5th item as part of the grid) */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+        {portfolio.slice(0, 5).map((project, index) => (
           <PortfolioItem
-            key={project.title} 
+            key={project.title}
             imgUrl={project.imgUrl}
             title={project.title}
-            stack={project.stack}
             link={project.link}
+            className="transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg w-full"
           />
         ))}
       </div>
 
       {/* Link to more projects */}
-      <div className='mt-8'>
-        <a 
-          href="https://github.com" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className='text-black-700 underline hover:text-green-700'
+      <div className="mt-8 text-center">
+        <a
+          href="https://github.com/devrishivermaa?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg font-medium text-white-800 underline hover:text-lime-600 opacity-80 transition-all duration-200 ease-in-out transform hover:scale-105"
         >
-          Click for more projects
+          Click here for more
         </a>
       </div>
     </div>
   );
-}
+};
 
 export default Portfolio;
