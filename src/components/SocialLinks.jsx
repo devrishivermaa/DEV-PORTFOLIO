@@ -8,7 +8,7 @@ const SocialLinks = () => {
     <div className="flex justify-center space-x-6 mt-8 relative">
       <div className="relative group">
         <a 
-          href="/assets/Dev Rishi_Verma_CV.pdf" 
+          href="/assets/Dev Rishi_CV_New.pdf" 
           target="_blank" 
           rel="noopener noreferrer" 
           aria-label="Resume"

@@ -1,6 +1,6 @@
 export default [
     {
-      year: 'Aug 2024 - Present',
+      year: 'Aug 2024 - Dec 2024',
       title: 'Teaching Assistant',
       company: 'JK Lakshmipat University',
       location: 'Jaipur, IN',
@@ -18,7 +18,7 @@ export default [
       title: 'Summer Intern',
       company: 'Defense Research & Development Organization (DRDO)',
       location: 'Dehradun, IN',
-      details: 'Worked under the guidance of scientists at the Defense Electronics Application Lab (DEAL) of DRDO, developing advanced image fusion algorithms to enhance remote sensing data using techniques such as PAN sharpening and Principal Component Analysis (PCA).'
+      details: 'Worked under the guidance of scientists at the Defense Electronics Application Lab (DEAL) of DRDO, improve and refine image fusion algorithms. Focused on advancing remote sensing data quality through enhanced techniques such as PAN sharpening and Principal Component Analysis (PCA).'
     }
   ];
   

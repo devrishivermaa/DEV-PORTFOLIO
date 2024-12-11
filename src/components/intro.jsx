@@ -17,7 +17,7 @@ const Intro = () => {
       
       {/* Title */}
       <p className='text-base md:text-xl mb-2 font-medium text-gray-400'>
-        Pre-Final Year Student Specializing in Machine Learning
+        Pre-Final Year CS & AI
       </p>
       
       {/* Description */}
