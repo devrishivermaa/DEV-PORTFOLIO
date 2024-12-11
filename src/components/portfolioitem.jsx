@@ -7,7 +7,7 @@ const PortfolioItem = ({ imgUrl, link }) => {
         <img
           src={imgUrl}
           alt="Portfolio Item"
-          className='w-full h-36 md:h-48 object-cover transition-opacity duration-300 hover:opacity-90' 
+          className='w-full h-48 md:h-64 object-cover transition-opacity duration-300 hover:opacity-90' 
         />
       </a>
     </div>

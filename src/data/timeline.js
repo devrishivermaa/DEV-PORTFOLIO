@@ -11,7 +11,7 @@ export default [
       title: 'Research Intern',
       company: 'QWORLD',
       location: 'Remote',
-      details: 'Under the guidance of Professor Jarek Duda and Dr. Pawel Gora, I focused on designing circuits for quantum algorithms using CPT symmetry in 2WQC, aiming to reduce time complexity and improve noise resilience. I presented this work at the Hypercomplex seminar in Poland, and, because of my contributions, I continue to work with them as a member of their 2WQC XPRIZE team.'
+      details: 'I focused on designing circuits for quantum algorithms using CPT symmetry in 2WQC, aiming to reduce time complexity and improve noise resilience. I presented this work at the Hypercomplex seminar in Poland, and, because of my contributions, I continue to work with them as a member of their 2WQC XPRIZE team.'
     },
     {
       year: 'May 2024 - Jul 2024',
