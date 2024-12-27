@@ -4,14 +4,15 @@ import Timeline from './components/timeline';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Footer from './components/footer';
-import Skills from './components/skills'; 
+import Skills from './components/skills';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
     <div
       className='min-h-screen py-12 px-4 sm:px-6 lg:px-8'
       style={{
-        backgroundImage: `url("/assets/bg5.jpg")`, 
+        backgroundImage: `url("/assets/bg5.jpg")`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -24,8 +25,9 @@ function App() {
       <Timeline />
       <Contact />
       <Footer />
+      <Analytics /> {/* Add the Analytics component here */}
     </div>
   );
 }
 
-export default App; 
+export default App;
