@@ -4,7 +4,9 @@ export default [
     title: 'Research Intern',
     company: 'Malaviya National Institute of Technology (MNIT)',
     location: 'Jaipur, IN',
-    details: 'As a Research Intern at the Vision Analytics and Pattern Recognition (VAPR) Lab, MNIT, under Prof. Deepak Rajan Nayak, I work on medical image analysis, developing algorithms to extract meaningful insights and improve diagnostic accuracy.'
+    details: 'As a Research Intern at the Vision Analytics and Pattern Recognition (VAPR) Lab, MNIT, under Prof. Deepak Rajan Nayak, I am ' +
+    'working on deep learning approaches for automated diabetic retinopathy grading using fundus images. Exploring attention-based ' +
+    'models, contrastive learning, few shot and zero shot learning algorithms to handle unbalanced classes'
   },
   {
     year: 'Jan 2025 – Present',
